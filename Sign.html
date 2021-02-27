@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-up</title>
+	<link rel="stylesheet" type="text/css" href="Sign.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+	<h2>Choose one of the plans and sign up!</h2>
+
+	<section>
+		<form action="/Main_page.html">
+
+		<div class='first_plan'>
+			<img src="https://images.unsplash.com/photo-1589564735084-135b7297a729?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNoZWFwfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+			<h3>Free version</h3>
+			<ul>
+				<li>Can read everything</li>
+				<li>Possible to send ideas</li>
+			</ul>
+			<label for='free'>Want to be lean?</label>
+			<input id='free' type="radio" name="ch" value='free'>
+		</div>
+
+
+		<div class='second_plan'>
+			<img src="https://images.unsplash.com/photo-1611675745374-34fa54cc3c98?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8amFwYW5lc2UlMjBzd29yZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+			<h3>Upgraded type 1000円</h3>
+			<ul>
+				<li>Able to receive personalised pieces of advice</li>
+				<li>Possible to know some sneak peaks earlier</li>
+			</ul>
+			<label for='medium'>Have passion into Japan?</label>
+			<input id="medium" type="radio" name="ch" value='medium'>
+		</div>
+
+		<div class='third_plan'>
+			<img src="https://images.unsplash.com/photo-1598518619776-eae3f8a34eac?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8amFwYW5lc2UlMjBtYXN0ZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+			<h3>Sublime バージョン 1500円</h3>
+			<ul>
+				<li>Unique sightseeing from me</li>
+				<li>One-to-one calls</li>
+			</ul>
+			<label for='advanced'>Okay, master</label>
+			<input id='advanced' type="radio" name="ch" value='top'>
+		</div>
+
+		<div>
+			<p id='slide'>
+				<label class='slider'><i>Please opt for the period in months:</i></label>
+				<input id='slider' type="range" name="sl" min="1" max="12">
+			</p>
+
+		
+		<article>
+			<ul>
+				<li>
+					<label for='name'>First name</label>
+					<input id="name" type="text" name="f_n" required minlength="1" maxlength="20">
+				</li>
+
+				<li>
+					<label for="sur">Surname</label>
+					<input type="text" name="s_r" required id='sur' minlength="1" maxlength="20">
+				</li>
+
+				<li>
+					<label for='mail'>Email</label>
+					<input type="email" name="mail" required id="mail">
+				</li>
+
+				<li>
+					<label for='pass'>Password</label>
+					<input requried type="password" name="pss" id='pass' minlength="5" maxlength="25">
+				</li>
+			</ul>
+		</article>
+		
+		<button class='regis_b' type="submit">はい！</button>
+		</div>
+
+		</form>
+	</section>
+
+
+</body>
+</html>

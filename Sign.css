@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font-family: 'Nanum Myeongjo', serif;
+	background-color: #fed9b7;
+}
+
+/*
+body {
+	background-color: #e26d5c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}*/
+
+h2 {
+	margin: 2rem;
+}
+
+section form {
+	background-color: #e26d5c;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: 2rem 5rem;
+	border-radius: 10%;
+
+}
+
+.first_plan h3, .second_plan h3, .third_plan h3 {
+	border-bottom: 1px solid #001233;
+}
+
+.first_plan, .second_plan, .third_plan {
+	border-bottom: 1px solid #001233;
+}
+
+.first_plan img {
+	height: 15rem;
+	border-radius: 10%;
+}
+
+.second_plan img {
+	height: 32rem;
+	margin: 1rem;
+	border-radius: 10%;
+}
+
+
+.third_plan img {
+	height: 15rem;
+	border-radius: 10%;
+}
+
+#slide {
+	background-color: #f7b267;
+	margin-top: 3rem;
+	border-radius: 15%;
+}
+
+input[type=text], input[type=password], input[type=email] {
+	text-align:center;
+	margin: 0 auto 1em auto;
+	width: 90%;
+}
+
+.regis_b {
+	background-color: #6d2e46;
+	color: white;
+}
+
+.regis_b:hover {
+	background-color: #70d6ff;
+}
+
+
+@media (max-width: 1000px) {
+	section form {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
