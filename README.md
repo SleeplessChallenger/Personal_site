@@ -10,8 +10,8 @@ This project is small site with multiple pages
 
 Elements of html and css that were used:
 
-HTML has all starting from <h> to <table> and <footer>. 
+HTML has all starting from `<h>` to `<table>` and `<footer>`. 
 Tried to mimick forms and layout of ordinary sites
   
-CSS also is used starting from simple background-color to
-flex-boxes.
+CSS also is used starting from simple `background-color` to
+`flex-boxes`.
