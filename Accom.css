@@ -1,0 +1,206 @@
+body {
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+	background-color: #faf3dd;
+}
+
+h1 {
+	font-weight: bold;
+	padding: 2rem;
+	font-size: 3rem;
+	margin: 0;
+}
+
+.upper {
+	margin: 0;
+	background-color: #797d62;
+}
+
+/*First one*/
+h3 {
+	margin: 3rem;
+}
+
+div.div1	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #dbcdf0;
+	margin-right: 50%;
+}
+
+
+
+@media (max-width: 760px) {
+	div.div1 {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.first_photo {
+	display: inline-block;
+
+}
+
+.first_photo img {
+	height: 20rem;
+	margin: 10%;
+}
+
+
+.first_descr {
+	display: inline-block;
+	margin: 2rem;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+/*Second one*/
+
+h3 {
+	margin: 3rem;
+}
+
+div.div2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #dbcdf0;
+	margin-right: 50%;
+}
+
+
+@media (max-width: 760px) {
+	div.div2 {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.second_photo {
+	display: inline-block;
+}
+
+.second_photo img {
+	height: 12rem;
+	margin: 10%;
+}
+
+.second_descr {
+	display: inline-block;
+	margin: 2rem;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+
+/*Third one*/
+
+h3 {
+	margin: 3rem;
+}
+
+div.div3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #dbcdf0;
+	margin-right: 50%;
+}
+
+
+@media (max-width: 760px) {
+	div.div3 {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.third_photo {
+	display: inline-block;
+}
+
+.third_photo img {
+	height: 20rem;
+	margin: 10%;
+}
+
+.third_descr {
+	display: inline-block;
+	margin: 2rem;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+
+/*footer*/
+
+footer {
+	margin-top: 7%;
+	margin-bottom: 0;
+	background-color: #001427;
+	color: white;
+}
+
+
+footer nav {
+	padding: 5%;
+	display: inline-block;
+}
+
+footer section {
+	display: inline-block;
+	float: right;
+}
+
+
+footer section img {
+	height: 6rem;
+	margin-right: 5rem;
+	margin-top: 1rem;
+
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*Detached element*/
+
+article {
+	position: fixed;
+	left: 50rem;
+	background-color: #f46036;
+	border-radius: 1rem; 	
+}
+
+article form #house {
+	background-color: #e0aaff;
+	color: #054a29;
+}
+
+article form button {
+	background-color: #e0aaff;
+	color: #054a29;
+}
+
+article form button:hover {
+	background-color: #f0a6ca;
+}
+
+article a {
+	text-decoration: none;
+	color: #613f75;
+}
+
+
+
+
+
+
