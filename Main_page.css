@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	font-family: 'Akaya Kanadaka', cursive;
+	background-color: #D0D6B3; 
+
+
+}
+
+
+h1 {
+	padding: 2%;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 4rem;
+
+}
+
+.tp {
+	margin: 3rem;
+	font-size: 2rem;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+
+nav ul, li {
+	display: inline;
+	margin: 0.3%;
+	padding: 2%;
+
+}
+
+
+.bar li {
+	border: 1px solid black;
+	background-color: #9b1d20;
+	color: white;
+}
+
+.bar li a {
+	text-decoration: none;
+	color: white;
+}
+
+.bar li:hover, .bar li:focus {
+	background-color: #ffc847;
+	cursor: pointer;
+}
+
+
+
+
+.bar {
+	flex: 1;
+	max-width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+	nav, nav ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+
+section.photo, section.poem	{
+	display: inline-block;
+}
+
+section.poem {
+	margin: 4rem;
+	font-size: 2rem;
+	background-color: #e5c3d1;
+	border-radius: 3rem;
+}
+
+img {
+	margin: 1.2rem;
+	border: 0.2rem solid black;
+	height: 30rem;
+	border-radius: 50%;
+}
+
+
+/*
+nav {
+	display: inline-block;
+	transform: translateY(-30vh) translateX(20vh);
+	font-size: 1.5rem;
+}
+
+*/
+section.main {
+	line-height: 1.2em;
+	font-weight: normal;
+	margin: 2rem;
+	border: 0.2rem dashed black;
+}
+
+#rev {
+	text-decoration: none;
+}
+
+
+/*Footer chunk*/
+
+
+footer {
+
+	background: center/contain url(https://images.unsplash.com/photo-1517196084897-498e0abd7c2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+
+}
+
+footer #this {
+	font-size: 1.2rem;
+	color: #a9280f;
+	margin-left: 0.7rem;
+	text-align: center;
+}
+
+
+footer p {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+
+.upper {
+	text-align:center;
+}
+
+.first, .second {
+	display:inline-block;
+}
+
+.first p, .second p {
+	color: red;
+}
+
+.first ul li, .second ul li {
+	display: block;
+
+}
+
+.first ul li a, .second ul li a {
+	text-decoration: none;
+	color: #5d2e46;
+}
+
+a:visited { 
+	text-decoration: none;
+	color: #5f0f40;
+}
+
+
