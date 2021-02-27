@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+	font-family: 'Shadows Into Light', cursive;
+	background-color: #92374D;
+}
+
+
+.start_1 {
+	display: inline-block;
+}
+
+.start_2 {
+	display: inline-block;
+}
+
+.start_2 img {
+	height: 9rem;
+	
+	border-radius: 30%;
+}
+
+h1 {
+	margin: 0;
+	padding: 3rem;
+	font-size: 2rem;
+}
+
+
+.start {
+	background-color: #6D5959;
+	margin: 0;
+}
+
+.bar ul {
+	font-size: 1.8em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.bar ul #s {
+	flex-shrink: 0
+}
+
+.bar ul #f, .bar ul #t {
+	flex-shrink: 1;
+}
+
+@media (max-width: 700px) {
+	.bar ul {
+		flex-direction: column;
+		align-items: left;
+	}
+}
+
+
+
+.bar a {
+	text-decoration: none;
+	color: #FEEFDD;
+	font-size: 1.2em;
+}
+
+table {
+	margin: 3rem;
+	margin-top: 4rem;
+}
+
+table, th, td {
+	/*border: 1px solid #725AC1;*/
+	background: #2b2d42;
+}
+
+th {
+	background-color: #646E68;
+}
+
+td {
+	background: #CAC4CE;
+}
+
+h2 {
+	margin-left: 2em;
+}
+
+
+
+footer nav {
+	background-color: #2f3e46; 
+}
+
+footer .first_order, footer .second_order {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 2rem;
+	color: white;
+}
+
+footer .first_order a, footer .second_order a {
+	text-decoration: none;
+	color: #b7094c;
+}
+
+/*Places*/
+
+h3 {
+	margin-left: 2rem;
+}
+
+
+
+.sky {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sky figure img {
+	height: 20rem;
+}
+
+.sky figcaption {
+	border: 1px solid #293241;
+	background-color: #f2e9e4;
+}
+
+.sky section {
+	margin: 2rem;
+	border: 1px solid #293241;
+	background-color: #f2e9e4;
+	height: 250px;
+}
+
+
+
+.shrine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.shrine figure img {
+	height: 34rem;
+}
+
+.shrine figcaption {
+	border: 1px solid #293241;
+	background-color: #f2e9e4;
+}
+
+.shrine section {
+	margin: 1rem;
+	border: 1px solid #293241;
+	background-color: #f2e9e4;
+	height: 250px;
+}
+
+@media (max-width: 700px) {
+	.shrine {
+		flex-direction: column;
+
+		align-items: center;
+		align-content: center;
+	}
+
+	.sky {
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+	}
+}
+
+
+
+
